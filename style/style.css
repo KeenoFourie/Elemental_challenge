@@ -97,6 +97,7 @@ body {
   text-align: left;
   width: 78%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .section-2-text {
@@ -176,4 +177,112 @@ h3 {
 
 .arrow1 {
   margin-left: 33px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1800px) {
+  .black-box {
+    background-color: black;
+    height: 100px;
+    margin: auto;
+    width: 80%;
+    position: static;
+}
+.right-arrow {
+  position: absolute;
+  display: none;
+  background-image: url(https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg);
+  top: 385px;
+  right: 209px;
+  background-size: contain;
+  cursor: pointer;
+  height: 90px;
+  width: 77px;
+}
+.dots-container {
+  position: absolute;
+  display: none;
+  right: 245px;
+}
+.blue-box {
+  display: flex;
+  background-color: #244AC2;
+  color: white;
+  font-size: 25px;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  position: static;
+  justify-content: center;
+  align-items: center;
+}
+.blue-text {
+  text-align: center;
+  padding: 0px;
+}
+.section-2-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 78%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.section-2-text {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 15px;
+}
+.symbols-image {
+  width: 80%;
+}
+.abt-content {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 36px;
+}
+.box-sponsor {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 180px;
+  background-color: #061B2C;
+  justify-content: center;
+  margin: auto;
+}
+.container1 {
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+  h3 {
+    color: white;
+    font-weight: 500;
+    margin-left: 33px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
 }
