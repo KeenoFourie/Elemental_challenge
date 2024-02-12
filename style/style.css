@@ -225,7 +225,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   width: 78%;
   margin: auto;
   flex-wrap: wrap;
@@ -283,5 +283,10 @@ h3 {
     margin-left: 33px;
     font-size: 20px;
     margin-bottom: 0px;
+}
+.navbar-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 }
