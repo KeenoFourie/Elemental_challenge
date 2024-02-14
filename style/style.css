@@ -181,7 +181,7 @@ h3 {
 
 /* media queries */
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1600px) {
   .black-box {
     background-color: black;
     height: 100px;
@@ -290,3 +290,10 @@ h3 {
   flex-direction: column;
 }
 }
+
+
+
+
+
+
+/* end */
