@@ -122,7 +122,7 @@ body {
 .box-sponsor {
   display: flex;
   flex-direction: column;
-  width: 430px;
+  width: 460px;
   height: 180px;
   background-color: #061B2C;
   justify-content: center;
@@ -141,7 +141,7 @@ body {
 }
 
 .container1 {
-  width: 430px;
+  width: 460px;
   gap: 20px;
   display: flex;
 }
@@ -166,7 +166,7 @@ h3 {
 
 .text {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
